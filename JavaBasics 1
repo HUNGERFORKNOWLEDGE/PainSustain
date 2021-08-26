@@ -1,0 +1,29 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Declaring variables, the first word is the data type and the word after is the variable/s
+        int i, j;
+        double sale;
+        char first;
+        String str;
+
+        // Assigment statements, it is in the form "VARIABLE = EXPRESSION"
+        i = 4;
+        System.out.println("i = " + i);
+
+        j = 4 * 5 - 11;
+        System.out.println("j = " + j);
+
+        sale = 0.02 * 1000;
+        System.out.println("sale = " + sale);
+
+        first = 'D';
+        System.out.println("first = " + first);
+
+        str = "It is a sunny day";
+        System.out.println("str = " + str);
+
+    }}
